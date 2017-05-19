@@ -14,3 +14,4 @@ sleep 10
 roslaunch radio_node_manager_main_controller manager.launch &
 rosrun radio_home_configuration run_configuration.py &
 rosrun radio_report_generator report_generator.py &
+roslaunch snc_sensors_publisher snc_sensors.launch &
