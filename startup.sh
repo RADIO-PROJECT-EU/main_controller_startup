@@ -16,4 +16,6 @@ rosrun radio_home_configuration run_configuration.py &
 rosrun radio_report_generator report_generator.py &
 roslaunch snc_sensors_publisher snc_sensors.launch &
 roslaunch snc_events_wrapper wrapper.launch &
- 
+roslaunch ros_visual_wrapper wrapper.launch &
+roslaunch hpr_wrapper wrapper.launch &
+roslaunch motion_analysis_wrapper wrapper.launch &
