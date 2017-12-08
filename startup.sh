@@ -3,7 +3,7 @@
 sleep 20 
 export LC_ALL="C"
 
-export ROS_IP=172.21.13.111
+export ROS_IP=192.168.2.216
 export ROS_MASTER_URI=http://main-controller:11311
 
 source /opt/ros/indigo/setup.bash
@@ -19,3 +19,4 @@ roslaunch snc_events_wrapper wrapper.launch &
 roslaunch ros_visual_wrapper wrapper.launch &
 roslaunch hpr_wrapper wrapper.launch &
 roslaunch motion_analysis_wrapper wrapper.launch &
+roslaunch room_status_publisher status.launch &
